@@ -1,0 +1,42 @@
+body {
+    font-family: cursive;
+    background-color: rgb(137 212 212);
+    margin: 0px;
+}
+
+.header-feed {
+    text-align: center;
+}
+
+.container {
+    background-color: rgb(180, 227, 227);
+    display: grid;
+    justify-content: center;
+}
+
+.photo-container {
+    background-color: white;
+    margin: 10px 0px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 5px;
+}
+
+.header-date {
+    color: rgb(148, 146, 146);
+    font-size: x-small;
+}
+
+.img-style {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+
+.footer {
+    margin: 0px 5px;
+}
